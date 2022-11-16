@@ -11,7 +11,7 @@ const babelConfig = {
       {
         env: 'production',
         exclude: ['error'],
-        commentWords: ['hhh']
+        commentWords: ['']
       }
     ]
   ]
