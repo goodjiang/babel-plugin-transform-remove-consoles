@@ -88,7 +88,7 @@ const visitor = {
     let calleePath = path.get('callee');
     if (calleePath && calleePath.matchesPattern('console', true)) {
       if (env == 'production' || isProduction) {
-        removeConsoleExpression(path, calleePath, exclude);
+        removeConsoleExpression(path, calleePath, exclude, commentWords);
       }
     }
   }

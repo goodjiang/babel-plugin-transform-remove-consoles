@@ -21,5 +21,9 @@ function add(m, n) {
 add(a, b);
 console.log('end');
 
+// hhh h
+console.log('1');
 // no remove
-console.error('21212');
+console.log('2');
+console.log('3'); // reserve
+console.log('4');
