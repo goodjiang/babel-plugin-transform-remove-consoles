@@ -1,13 +1,17 @@
 {
-  "name": "remove-console-plugin",
-  "version": "1.0.0",
+  "name": "babel-plugin-transform-remove-consoles",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodjiang/remove-console-plugin.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "jiang13253422387",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.20.2"
